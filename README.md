@@ -1,4 +1,57 @@
-<header>
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landlord Business</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #333; color: white; padding: 1rem; text-align: center; }
+        nav { background: #444; padding: 0.5rem; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .container { padding: 2rem; text-align: center; }
+        .property { border: 1px solid #ddd; margin: 10px; padding: 10px; display: inline-block; }
+        footer { background: #333; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Rental Business</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#properties">Properties</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div id="home" class="container">
+        <h2>Find Your Perfect Rental Property</h2>
+        <p>Browse our listings and find your next home.</p>
+    </div>
+    <div id="properties" class="container">
+        <h2>Available Properties</h2>
+        <div class="property">
+            <h3>Apartment in City Center</h3>
+            <p>2 Bed | 1 Bath | $1,200/month</p>
+        </div>
+        <div class="property">
+            <h3>Cozy Suburban Home</h3>
+            <p>3 Bed | 2 Bath | $1,800/month</p>
+        </div>
+    </div>
+    <div id="about" class="container">
+        <h2>About Us</h2>
+        <p>We have been providing quality rental homes for over 10 years.</p>
+    </div>
+    <div id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>Email: info@yourrentalbusiness.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Your Rental Business. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
 
 <!--
   <<< Author notes: Course header >>>
